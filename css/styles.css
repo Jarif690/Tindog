@@ -1,0 +1,132 @@
+h1{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+h2{
+  font-family: 'Montserrat', sans-serif;
+}
+.container-value h2{
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+p{
+  color: #8f8f8f;
+  font-family: 'Montserrat', sans-serif;
+}
+.title-section{
+  background-color:  #ff4c68;
+  font-family: 'Montserrat', sans-serif;
+  color: #fff;
+}
+.navbar{
+  padding: 3% 15%;
+}
+.navbar-brand{
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.nav-item{
+  font-size: 1.2rem;
+}
+.title-row{
+  padding: 0 15% 5%;
+}
+.title-button{
+  margin: 7% 3% 7% 0;
+  padding: 3% 5%;
+}
+.title-image{
+  width: 60%;
+  right: 25%;
+  position: absolute;
+  transform: rotate(25deg);
+}
+.container1{
+  background-color: #fff;
+  position: relative;
+  text-align: center;
+  padding: 7% 15%;
+}
+.container-value{
+  padding: 4.5%;
+}
+.container1-icon{
+  color: #ef8172;
+  line-height: 1.5;
+}
+.container1-icon:hover{
+  color: #ff4c68;
+}
+.container2-inner{
+  background-color: #ef8172;
+  color: #fff;
+  text-align: center;
+  padding: 7% 15%;
+}
+.container2-image{
+  width: 10%;
+  border-radius: 100%;
+  margin: 3%;
+}
+h3{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  font-weight: 400;
+  line-height: 1.5;
+}
+.press{
+  background-color: #ef8172;
+  text-align: center;
+}
+.press img{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+.pricing{
+  text-align: center;
+  padding: 100px;
+}
+.card-heading{
+  font-size: 3rem;
+  font-weight: 400;
+  line-height: 1.5;
+}
+.card-padding{
+  padding: 5% 3%;
+}
+.container3{
+  background-color: #ff4c68;
+  text-align: center;
+  color: #fff;
+}
+.container3-heading{
+  font-size: 3rem;
+  padding: 10% 15% 0;
+}
+.container3-button{
+  margin: 5% 3% 10% 0;
+  padding: 1% 3%;
+}
+.footer{
+  text-align: center;
+  background-color: #ff;
+  padding: 7% 15%;
+}
+.footer-icon{
+  padding: 0.6rem;
+}
+/* font-family: 'Montserrat', sans-serif;
+font-family: 'Ubuntu', sans-serif; */
+
+@media (max-width:1028px) {
+  body{
+    text-align: center;
+  }
+  .title-image{
+    transform: rotate(0deg);
+    position: static;
+  }
+}
